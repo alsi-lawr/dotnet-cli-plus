@@ -1,0 +1,136 @@
+{
+  "format": 1,
+  "restore": {
+    "\\\\wsl.localhost\\Ubuntu\\home\\alex\\dev\\dotnet-cli-plus\\src\\Dotnet.CLI.Plus\\Dotnet.CLI.Plus.csproj": {}
+  },
+  "projects": {
+    "\\\\wsl.localhost\\Ubuntu\\home\\alex\\dev\\dotnet-cli-plus\\src\\Dotnet.CLI.Plus\\Dotnet.CLI.Plus.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "\\\\wsl.localhost\\Ubuntu\\home\\alex\\dev\\dotnet-cli-plus\\src\\Dotnet.CLI.Plus\\Dotnet.CLI.Plus.csproj",
+        "projectName": "Dotnet.CLI.Plus",
+        "projectPath": "\\\\wsl.localhost\\Ubuntu\\home\\alex\\dev\\dotnet-cli-plus\\src\\Dotnet.CLI.Plus\\Dotnet.CLI.Plus.csproj",
+        "packagesPath": "C:\\Users\\crazy\\.nuget\\packages\\",
+        "outputPath": "\\\\wsl.localhost\\Ubuntu\\home\\alex\\dev\\dotnet-cli-plus\\src\\Dotnet.CLI.Plus\\obj\\",
+        "projectStyle": "PackageReference",
+        "centralPackageVersionsManagementEnabled": true,
+        "configFilePaths": [
+          "C:\\Users\\crazy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "noWarn": [
+            "NU1507"
+          ],
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "IgnoresAccessChecksToGenerator": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[0.7.0, )",
+              "versionCentrallyManaged": true
+            },
+            "LanguageExt.Core": {
+              "target": "Package",
+              "version": "[4.4.9, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.Build": {
+              "target": "Package",
+              "version": "[17.11.4, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.CodeAnalysis": {
+              "target": "Package",
+              "version": "[4.11.0, )",
+              "versionCentrallyManaged": true
+            },
+            "Spectre.Console": {
+              "target": "Package",
+              "version": "[0.49.1, )",
+              "versionCentrallyManaged": true
+            },
+            "Spectre.Console.Cli": {
+              "target": "Package",
+              "version": "[0.49.1, )",
+              "versionCentrallyManaged": true
+            },
+            "System.Text.Encoding": {
+              "target": "Package",
+              "version": "[4.3.0, )",
+              "versionCentrallyManaged": true
+            }
+          },
+          "centralPackageVersions": {
+            "BenchmarkDotNet": "[0.14.0, )",
+            "coverlet.collector": "[6.0.2, )",
+            "coverlet.msbuild": "[6.0.2, )",
+            "FluentAssertions": "[6.12.0, )",
+            "IgnoresAccessChecksToGenerator": "[0.7.0, )",
+            "LanguageExt.core": "[4.4.9, )",
+            "Microsoft.Build": "[17.11.4, )",
+            "Microsoft.Build.Runtime": "[17.11.4, )",
+            "Microsoft.Build.Utilities.Core": "[17.11.4, )",
+            "Microsoft.CodeAnalysis": "[4.11.0, )",
+            "Microsoft.Extensions.DependencyModel": "[8.0.1, )",
+            "Microsoft.NET.Test.Sdk": "[17.10.0, )",
+            "NuGet.Frameworks": "[6.11.0, )",
+            "NuGet.Packaging": "[6.11.0, )",
+            "NuGet.ProjectModel": "[6.11.0, )",
+            "NuGet.Versioning": "[6.11.0, )",
+            "Spectre.Console": "[0.49.1, )",
+            "Spectre.Console.Cli": "[0.49.1, )",
+            "System.CommandLine": "[2.0.0-beta4.22272.1, )",
+            "System.Text.Encoding": "[4.3.0, )",
+            "System.Text.Json": "[8.0.4, )",
+            "xunit": "[2.8.1, )",
+            "xunit.runner.visualstudio": "[2.8.1, )"
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

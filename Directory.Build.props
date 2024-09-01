@@ -1,0 +1,24 @@
+<Project>
+     <PropertyGroup>
+         <TargetFramework>net8.0</TargetFramework>
+         <ImplicitUsings>enable</ImplicitUsings>
+         <SdkTargetFramework>net8.0</SdkTargetFramework>
+    </PropertyGroup>
+
+    <PropertyGroup>
+        <NoWarn>$(NoWarn);NU1507;CS8618</NoWarn>
+    </PropertyGroup>
+
+    <PropertyGroup>
+        <Authors>ALSI</Authors>
+    </PropertyGroup>
+   
+    <ItemGroup>
+        <Compile Include="$(SolutionDir)/GlobalUsings.cs" />
+    </ItemGroup>
+    
+    <ItemGroup>
+        <PackageReference Include="System.Text.Encoding" />
+        <PackageReference Include="Microsoft.CodeAnalysis" />
+    </ItemGroup>
+</Project>
