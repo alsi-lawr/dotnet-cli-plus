@@ -1,4 +1,4 @@
 [submodule "extern"]
     path = extern
-    url = https://github.com/dotnet/sdk
+    url = https://github.com/dotnet/sdk.git
     branch = main
