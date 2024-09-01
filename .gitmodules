@@ -1,0 +1,4 @@
+[submodule "exterm"]
+    path = extern
+    url = https://github.com/dotnet/sdk
+    branch = main
