@@ -1,1 +1,5 @@
 **/*:Zone.Identifier
+**/obj
+**/bin
+.idea
+.vs

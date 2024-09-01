@@ -1,6 +1,0 @@
-\\wsl.localhost\Ubuntu\home\alex\dev\dotnet-cli-plus\src\Dotnet.CLI.Plus\obj\Debug\net8.0\Dotnet.CLI.Plus.csproj.AssemblyReference.cache
-\\wsl.localhost\Ubuntu\home\alex\dev\dotnet-cli-plus\src\Dotnet.CLI.Plus\obj\Debug\net8.0\Dotnet.CLI.Plus.GeneratedMSBuildEditorConfig.editorconfig
-\\wsl.localhost\Ubuntu\home\alex\dev\dotnet-cli-plus\src\Dotnet.CLI.Plus\obj\Debug\net8.0\Dotnet.CLI.Plus.AssemblyInfoInputs.cache
-\\wsl.localhost\Ubuntu\home\alex\dev\dotnet-cli-plus\src\Dotnet.CLI.Plus\obj\Debug\net8.0\Dotnet.CLI.Plus.AssemblyInfo.cs
-\\wsl.localhost\Ubuntu\home\alex\dev\dotnet-cli-plus\src\Dotnet.CLI.Plus\obj\Debug\net8.0\Dotnet.CLI.Plus.csproj.CoreCompileInputs.cache
-\\wsl.localhost\Ubuntu\home\alex\dev\dotnet-cli-plus\src\Dotnet.CLI.Plus\obj\Debug\net8.0\Dotnet.CLI.Plus.sourcelink.json
