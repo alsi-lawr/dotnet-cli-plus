@@ -1,7 +1,7 @@
 #!/bin/bash
 
 SUBMODULE_PATH="extern"
-PATCH_PATH="../patches/dotnet-sdk"
+PATCH_DIR="../patches/dotnet-sdk"
 
 # Enable sparse checkout
 cd "$SUBMODULE_PATH" || exit 1
@@ -20,12 +20,6 @@ git reset --hard
 
 # Apply each patch in the PATCH_DIR
 for patch in "$PATCH_DIR"/*.patch; do
-    # Check if any .patch files exist
-    if [ ! -f "$patch" ]; then
-        echo "No patch files found in $PATCH_DIR"
-        exit 0
-    fi
-
     echo "Applying patch: $patch"
 
     # Apply the patch
