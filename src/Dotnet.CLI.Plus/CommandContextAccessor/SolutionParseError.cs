@@ -13,8 +13,10 @@ public class SolutionParseError(SolutionParseError.ParseErrorType parseError, Ex
     public enum ParseErrorType
     {
         FileNotFound,
+        DirectoryNotFound,
         NotASolutionFile,
         InternalParsingError,
+        MultipleSolutionsFound
     }
 
     public override int DisplayCliInfo()

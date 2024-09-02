@@ -5,6 +5,9 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <PackAsTool>true</PackAsTool>
+    <ToolCommandName>dotnet-plus</ToolCommandName>
+    <PackageOutputPath>../../build</PackageOutputPath>
   </PropertyGroup>
   
   <ItemGroup>
@@ -20,6 +23,11 @@
     <PackageReference Include="Microsoft.Build" />
     <PackageReference Include="Spectre.Console" />
     <PackageReference Include="Spectre.Console.Cli"  />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <ProjectReference Include="..\..\extern\src\Cli\Microsoft.DotNet.Cli.Sln.Internal\Microsoft.DotNet.Cli.Sln.Internal.csproj" />
+    <ProjectReference Include="..\..\extern\src\Cli\Microsoft.DotNet.Cli.Utils\Microsoft.DotNet.Cli.Utils.csproj" />
   </ItemGroup>
 
 </Project>
